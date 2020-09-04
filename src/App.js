@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react'
 
-import "./App.css"
-import requests from "./requests"
-import Row from "./components/Row"
-import Banner from "./components/Banner"
-import Navbar from "./components/Navbar"
+import './App.css'
+import requests from './requests'
+import Row from './components/Row'
+import Banner from './components/Banner'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
