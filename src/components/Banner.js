@@ -1,11 +1,11 @@
-import React from "react"
-import axios from "../axios"
-import request from "../requests"
-import { trunccate } from "../services/helpers"
+import React from 'react'
+import axios from '../axios'
+import request from '../requests'
+import { trunccate } from '../services/helpers'
 
-import "./Banner.css"
+import './Banner.css'
 
-const BASE_URL = "https://image.tmdb.org/t/p/original"
+const BASE_URL = 'https://image.tmdb.org/t/p/original'
 
 const Banner = (props) => {
   const [movie, setMovie] = React.useState({})
@@ -29,8 +29,8 @@ const Banner = (props) => {
         className="banner"
         style={{
           backgroundImage: `url(${BASE_URL}${movie.poster_path})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
         }}
       >
         <div className="banner__contents">
